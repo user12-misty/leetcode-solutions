@@ -12,9 +12,14 @@ int main(){
     int n = arr.size();
     print(arr);
     for(int j=1; j<=n;j++){
+        int  swaps=0;
     for(int i=0;i<n-1;i++){
-        if(arr[i]> arr[i+1])
+        if(arr[i]> arr[i+1]){
         swap(arr[i], arr[i+1]);
+        swaps++;
         }
     }
+    if(swaps==0) break;
+}
+print(arr);
 }

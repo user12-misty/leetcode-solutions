@@ -9,7 +9,7 @@ public:
                 i++;
             }
             j--;
-            boats+=
+            boats++;
         }
         return boats;
     }
